@@ -23,40 +23,33 @@ recipes:
 # development (rails)
 - sprout-rbenv
 - sprout-ruby
-- sprout-mysql
 - sprout-postgresql
 
 # apps
 - sprout-osx-apps::iterm2
 - sprout-osx-apps::flycut
 - sprout-osx-apps::shiftit
+- sprout-osx-apps::1password
+- sprout-osx-apps::adium
+- sprout-osx-apps::alfred
+- sprout-osx-apps::chrome
+- sprout-osx-apps::dropbox
+- sprout-osx-apps::heroku_toolbelt
+- sprout-osx-apps::istatmenus
+- sprout-osx-apps::sizeup
+- sprout-osx-apps::skype
 
 # apps (editors)
-- sprout-osx-apps::textmate_bundles
-- sprout-osx-apps::textmate_preferences
-- sprout-osx-apps::macvim
-- sprout-rubymine
+- sprout-osx-apps::sublime_text
 
 node_attributes:
   sprout:
     git:
-      domain: pivotallabs.com
+      domain: geoffreydagley.com
       authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
-      projects:
-        -
-          - sprout-wrap
-          - https://github.com/pivotal-sprout/sprout-wrap.git
+        - initials: gd
+          name: Geoffrey Dagley
+          username: gdagley
     terminal:
       default_profile: 'Pro'
     settings:
